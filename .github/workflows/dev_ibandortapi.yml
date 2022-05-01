@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ibandortapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F299D0178E8460EAFF6C021C36A2395 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CBCD3385889A4276824D0F099F341BC9 }}
           package: '*.war'
