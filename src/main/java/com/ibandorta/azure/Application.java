@@ -17,6 +17,11 @@ public class Application {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	
+	@GetMapping("/message")
+	public String message() {
+		return "Felicidades crack";
+	}
+	
 	@PostMapping("/employee")
 	public Employee addEmployee(@RequestBody Employee employee) {
 		return employeeRepository.save(employee);
